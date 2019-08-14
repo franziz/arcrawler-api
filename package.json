@@ -7,11 +7,11 @@
     "start": "clear && node index.js"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^8.0.0",
-    "express": "^4.17.1",
-    "module-alias": "^2.2.1",
-    "puppeteer": "^1.19.0"
+    "cors": "2.8.5",
+    "dotenv": "8.0.0",
+    "express": "4.17.1",
+    "module-alias": "2.2.1",
+    "puppeteer": "1.19.0"
   },
   "_moduleAliases": {
     "@app": "app"
