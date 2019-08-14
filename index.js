@@ -14,7 +14,7 @@ app.use(cors())
 
 app.put("/v1/xpath/extract", async (req, res) => {
   const { xpath, url } = req.body;
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] });
   try{
     const page = await browser.newPage();
     await page.goto(url);
