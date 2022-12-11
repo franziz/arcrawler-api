@@ -9,7 +9,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "module-alias": "^2.2.1",
     "puppeteer": "^1.19.0"
   },
